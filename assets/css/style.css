@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/beige-tiles.png');
+    padding: 10px;
+}
+
+header {
+    font-size: 27px;
+    width: 250px;
+    padding: 20px 3px 20px 3px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: #333;
+    padding: 20px 10px;
+    line-height: 1.2;
+    width: 50%;
+    height: 300px;
+    color: #fefefe;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 25px;
+}
+
+.countContainer {
+    position: relative;
+    width: 35%;
+    height: 100px;
+    background-color: gold;
+    padding: 5px;
+}
+
+.gem {
+    margin: 10px;
+    display: inline-block;
+}
