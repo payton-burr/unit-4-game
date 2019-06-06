@@ -3,40 +3,56 @@
 }
 
 body {
-    background: url('../images/beige-tiles.png');
-    padding: 10px;
+    background: url('../images/dark-honeycomb.png');
+    margin: 10px;
+    color: #fefefe;
 }
 
 header {
-    font-size: 27px;
-    width: 250px;
-    padding: 20px 3px 20px 3px;
+    width: 30%;
+    margin: 0 auto;
     text-align: center;
-    background-color: orange;
-    color: white;
-    margin-bottom: 10px;
+    font-size: 2.5em;
+    padding: 20px 5px 20px 5px;
 }
 
 main {
-    background-color: #333;
-    padding: 20px 10px;
-    line-height: 1.2;
-    width: 50%;
-    height: 300px;
-    color: #fefefe;
-    margin-bottom: 10px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    line-height: 2;
+    font-size: 1.1em;
 }
 
-main p {
-    margin-bottom: 25px;
+li {
+    border-bottom: 2px solid grey;
+    text-indent: 15px;
 }
 
-.countContainer {
-    position: relative;
-    width: 35%;
-    height: 100px;
-    background-color: gold;
-    padding: 5px;
+.numGuess {
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.winAndLoss {
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+.gemContainer {
+    text-align: center;
+}
+
+.scoreCount {
+    text-align: center;
+    width: 60%;
+    font-size: 2em;
+}
+
+.userScore {
+    color: #33db20;
 }
 
 .gem {
